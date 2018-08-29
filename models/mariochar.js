@@ -8,6 +8,6 @@ const MarioCharSchema = new Schema({
   weight: Number,
 });
 
-const MarioCar = mongoose.model('mariochar', MarioCharSchema);
+const MarioChar = mongoose.model('mariochar', MarioCharSchema);
 
 module.exports = MarioChar;
